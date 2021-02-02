@@ -10,6 +10,11 @@
 .content {
   display: table;
   width: 100%;
+  margin-top: 20px;
+}
+
+.content:first-child {
+  margin-top: 0;
 }
 
 .box_content {
@@ -18,34 +23,30 @@
   padding: 20px 0;
 }
 
-.box_top_left {
+.box_top_orange {
   width: 100px;
   background-color: #fdc8b8;
 }
 
-.box_top_center {
+.box_top_pink {
   background-color: #e0abd9;
 }
 
-.box_top_right {
+.box_top_blue {
   width: 100px;
   background-color: #b6d8ed;
 }
 
-.box_bottom_left {
+.box_bottom_yellow {
   background-color: #e5d32e;
 }
 
-.box_bottom_center {
+.box_bottom_red {
   background-color: #ec8f9a;
 }
 
-.box_bottom_right {
+.box_bottom_green {
   width: 500px;
   background-color: #8fdcad;
-}
-
-.content:last-child {
-  margin-top: 20px;
 }
 /* 回答はここに書いてね */

@@ -86,6 +86,7 @@
 }
 
 .q5_box_9 {
+  position: fixed;
   top: 10px;
   left: 10px;
   background-color: #2b69a3;

@@ -3,12 +3,7 @@
 /* 回答はここに書いてね */
 
 /* q6_1 */
-
-.q6_box_inner {
-  text-align: center;
-}
-
-.q6__box_main {
+.q6-1_box {
   display: inline-block;
   width: 300px;
   margin: 0 10px;
@@ -18,9 +13,17 @@
   background-color: #fff;
 }
 
-.q6_text:last-child {
-  margin: 0 auto;
+.text-align .q6_text {
+  display: inline-block;
+}
+
+.q6-1_box_inner{
   text-align: center;
+}
+
+.text-margin .q6_text {
+  text-align: center;
+  margin: 0 auto;
 }
 
 .q6_text {
