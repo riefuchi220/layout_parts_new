@@ -45,7 +45,7 @@
   background-color: #8fdcad;
 }
 
-.second_content {
+.content:last-child {
   margin-top: 20px;
 }
 /* 回答はここに書いてね */

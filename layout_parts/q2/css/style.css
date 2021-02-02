@@ -18,13 +18,13 @@
    clear: both;
 }
 
-.thumb_top { 
+.thumb_left { 
   float:  left;
   margin-right: 20px;
   margin-bottom: 10px;
 }
 
-.thumb_bottom {
+.thumb_right {
   float: right;
   margin-left: 20px;
   margin-bottom: 10px;

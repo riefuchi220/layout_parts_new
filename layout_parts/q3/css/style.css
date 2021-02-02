@@ -6,7 +6,7 @@
   table-layout: fixed;
 }
 
-.table_name {
+.q3_table tr:first-child {
   font-size: 18px;
   background-color: #2244aa;
   color: white;
