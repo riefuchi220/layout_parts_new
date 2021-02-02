@@ -1,5 +1,32 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q2_box {
+  width: 940px;
+  margin: 0 auto;
+  background-color: #eff3f4;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 22px;
+  box-sizing: border-box;
+  word-break: break-all;
+}
 
+.clearfix::after {
+  content: "";
+   display: block;
+   clear: both;
+}
+
+.thumb_top { 
+  float:  left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.thumb_bottom {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
 /* 回答はここに書いてね */
