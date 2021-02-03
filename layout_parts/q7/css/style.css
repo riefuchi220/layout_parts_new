@@ -1,5 +1,100 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+/* q7-1 */
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
 
+.float_box {
+  float: left;
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-left: 50px;
+}
+
+.float_box:first-child {
+  margin-left: 0;
+}
+
+/* q7-2 */
+.q7_table {
+  display: table;
+}
+
+.q7_table_box {
+  display: table-cell;
+  padding-left: 50px;
+  vertical-align: middle;
+}
+
+.q7_table_box:first-child {
+  padding: 0;
+}
+
+.q7__box__texts {
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* q7-3 */
+.q7__inner_box {
+  font-size: 0;
+}
+
+.q7-3_text{
+  display: inline-block;
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  margin-left: 50px;
+}
+
+.q7-3_text:first-child {
+  margin-left: 0;
+}
+
+/* q7-4 */
+.q7-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.q7-flex_box {
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* q7-5 */
+.is-full_contents {
+  width: 100%; 
+  font-size: 0;
+}
+
+.is-full_left {
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+}
+
+.is-full_text {
+  font-size: 16px;
+}
+
+.is-full_right {
+  display: inline-block;
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+  
 /* 回答はここに書いてね */
